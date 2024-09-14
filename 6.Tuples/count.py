@@ -1,0 +1,7 @@
+grades = tuple(input("Enter the grades : "))
+count = grades.count("A")
+print("The number of students who got A grade is ",count)
+list_grades = list(grades)
+print("Type of grades is : ",type(list_grades))
+list_grades.sort()
+print("After sorting , list = ",list_grades)

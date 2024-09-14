@@ -1,0 +1,17 @@
+tup = (1,2,3,4)
+print(type(tup))
+print(type(tup[2]))
+tup1 = ()
+tup2 = (1) 
+tup3 = (1,)
+print(tup1)
+print(type(tup1))
+print(tup2)
+print(type(tup2))
+print(tup3)
+print(type(tup3))
+
+#Slicing
+print(tup[1:3])
+print(tup[1:])
+print(tup[:3])

@@ -1,0 +1,11 @@
+string = input("Enter a string : ")
+x = input("Enter the substring : ")
+print(x,"is ending of",string,":",string.endswith(x))
+cap = string[0]
+string = string.capitalize()
+print("After capitalizing",cap,":",string)
+y = input("Enter another substring : ")
+string = string.replace(x,y)
+print("After replacing",x,"with",y,":",string)
+print("Position of ",y,"on",string,":",string.find(y))
+print("Number of occurence of",y,"in",string,":",string.count(y))
